@@ -1,0 +1,516 @@
+@charset "UTF-8";
+
+#wrap {}
+
+#header {
+    width: 100%;
+    height: 113px;
+    position: absolute;
+    color: white;
+}
+
+.head_inner {
+    width: 1200px;
+    height: 113px;
+    margin: 0 auto;
+    /* border: 1px solid #fff; */
+}
+
+.top_menu {
+    text-align: right;
+}
+
+.top_menu li {
+    display: inline-block;
+}
+
+.top_menu li a {
+    display: block;
+    height: 48px;
+    line-height: 48px;
+    width: 120px;
+    /* border: 1px solid white; */
+}
+
+.top_menu li:nth-child(2) a {
+    width: 70px;
+}
+
+.logo {
+    width: 112px;
+    height: 45px;
+    float: left;
+}
+
+.logo a {
+    display: block;
+    height: 45px;
+    background: url("../img/ico-zeus-logo.png") no-repeat;
+    text-indent: -99999px;
+    transition: all;
+}
+
+.logo a:hover {
+    background-position: 0 -45px;
+}
+
+.nav {
+    float: right;
+}
+
+.main_menu {}
+
+.main_menu li {
+    float: left;
+}
+
+.main_menu li a {
+    display: block;
+    width: 50px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* contents */
+#contents {}
+
+.main_vsiual {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+
+
+.classic {
+    overflow: hidden;
+    background-image: linear-gradient(#fff 65%, #f1f1f1 65.1%);
+    /* background: url("../img/bg.jpg") repeat-x left bottom; */
+
+
+}
+
+.classic_inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    padding: 50px 0 30px;
+}
+
+.cla_menu {
+    text-align: center;
+}
+
+.cla_menu li {
+    display: inline-block;
+}
+
+.cla_menu li a {
+    display: block;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.cla_menu .first a {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.cla_list {
+    margin-top: 30px;
+}
+
+.cla_list li {
+    float: left;
+    width: 384px;
+    height: 520px;
+    margin-right: 24px;
+}
+
+.cla_list .list1 {
+    background: url("../img/classic1.jpg") no-repeat;
+    background-position: center center;
+
+}
+
+.cla_list .list2 {
+    background: url("../img/classic2.jpg") no-repeat;
+    background-position: center center;
+}
+
+.cla_list .list3 {
+    background: url("../img/classic3.jpg") no-repeat;
+    background-position: center center;
+    margin-right: 0 !important;
+
+}
+
+.cla_list li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.cla_list li a .top {
+    width: 60px;
+    height: 70px;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-left: 30px;
+}
+
+.top h3 {
+    font-size: 24px;
+}
+
+.top span {
+    font-size: 10px;
+}
+
+.cla_list .txt {
+    width: 344px;
+    height: 245px;
+    background: rgba(255, 255, 255, 0);
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 400px;
+    transform: translateX(-50%);
+    padding: 30px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+
+}
+
+.cla_list .txt .p1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+.cla_list .txt .p2 {
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+
+.cla_list .txt .p3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cla_list .txt .p3 span {
+    font-size: 16px;
+}
+
+
+.cla_list a:hover .txt {
+    top: 250px;
+    background-color: white;
+    color: #333;
+}
+
+/* 스페셜 테마 */
+
+.special {
+    overflow: hidden;
+    background-image: linear-gradient(#fff 65%, #f1f1f1 65.1%);
+    /* background: url("../img/bg.jpg") repeat-x left bottom; */
+
+
+}
+
+.special_inner {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+
+.spe_menu {
+    text-align: center;
+}
+
+.spe_menu li {
+    display: inline-block;
+}
+
+.spe_menu li a {
+    display: block;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.spe_menu .first a {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.spe_list {
+    margin-top: 30px;
+}
+
+.spe_list li {
+    float: left;
+    width: 384px;
+    height: 520px;
+    margin-right: 24px;
+}
+
+.spe_list .list1 {
+    background: url("../img/special1.jpg") no-repeat;
+    background-position: center center;
+}
+
+.spe_list .list2 {
+    background: url("../img/special2.jpg") no-repeat;
+    background-position: center center;
+}
+
+.spe_list .list3 {
+    background: url("../img/special3.jpg") no-repeat;
+    margin-right: 0 !important;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.spe_list li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.spe_list li a .top {
+    width: 60px;
+    height: 70px;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-left: 30px;
+}
+
+
+.spe_list .txt {
+    width: 344px;
+    height: 245px;
+    background: rgba(255, 255, 255, 0);
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 400px;
+    transform: translateX(-50%);
+    padding: 30px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+
+}
+
+.spe_list .txt .p1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+.spe_list .list1 .txt .p1 {
+
+    margin-bottom: 10px;
+    padding-top: 60px;
+
+}
+
+.spe_list .txt .p2 {
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+
+.spe_list .txt .p3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.spe_list .txt .p3 span {
+    font-size: 16px;
+}
+
+
+.spe_list a:hover .txt {
+    top: 250px;
+    background-color: white;
+    color: #333;
+}
+
+.spe_list .list1 a:hover .txt .p1 {
+    padding-top: 30px;
+}
+
+
+/* notice 영역 */
+
+.notice{
+    overflow: hidden;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding: 50px 0 80px;
+}
+ 
+.not_inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.not_list{}
+
+.not_list li{
+    float: left;
+    width: 25%;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+    text-align: center;
+}
+.not_list li.list4{
+    border-right: none !important;
+}
+
+.not_list li a{
+    display: block;
+}
+
+.not_list li a span{
+    display: inline-block;
+    text-indent: -999999px;
+    width: 33px;
+    height: 36px;
+    background: url(../img/spr_icn.png) no-repeat;
+    background-position: -204px -255px;
+}
+
+.not_list li a h4{
+    padding: 5px 0;
+}
+
+.not_list li .not_txt{
+    font-size: 12px;
+    color: #666;
+}
+
+.not_list li.list2 a span{
+    background-position: -237px -255px;
+}
+
+.not_list li.list3 a span{
+    background-position: -270px -255px;
+}
+
+.not_list li.list4 a span{
+    background-position: -303px -255px;
+}
+
+
+/* footer영역 */
+#footer{
+    
+}
+
+.foot_inner{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.f_menu{}
+
+.f_menu li{
+    display: inline-block;   
+}
+
+.f_menu li a{
+    display: block;
+    padding: 20px 10px;
+    position: relative;
+    font-size: 12px;
+}
+    .f_menu li a::after{
+        content: "|";
+        display: inline-block;
+        position: absolute;
+        right: -5px;
+    }
+    .f_menu li:last-child a::after{
+        display: none;
+    }
+
+.f_menu li a.bold{
+    font-weight: bold;
+}
+
+.f_menu li a.bold::after{
+    font-weight: normal;
+}
+
+
+/* address영역 */
+.adress{
+    font-size: 12px;
+    color: #666;
+}
+.adress span{
+    padding: 10px;
+    position: relative;
+}
+.img{
+    vertical-align: middle;
+}
+
+.adress span::after{
+    content: "|";
+    display: inline-block;
+    position: absolute;
+    right: -5px;
+}
+
+.adress span.line::after{
+    display: none;
+}
+
+.f_txt{
+    font-size: 13px;
+    color: #333;
+    padding: 10px 0;
+    line-height: 1.7;
+}
+
+.copy{
+    padding: 10px 0;
+    font-size: 12px;
+    color: #333;
+}
+
+.vitruoso{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.tel{
+    position: absolute;
+    right: 280px;
+    top: 10px;
+    font-size: 12px;
+    color: #666;
+}
